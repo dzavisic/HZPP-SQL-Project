@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1B696A7-0AF3-379A-ABFC-94108D85D574" name="RELACIJA">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>74661068-7FBF-BAB3-F043-FEAA663A8664</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rel_id" id="8CFDEBA1-7DFF-CED1-3376-2E2F90141C61">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>F561DFFB-874D-363A-BD02-2A507EC0C936</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cijena_relacije" id="CD0BF32F-2DBC-EE77-C57D-0E19EA65AB4C">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>A85CD668-4E02-DDA2-C987-B88E9CE3FF01</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vremensko_trajanje" id="A577EC3E-8991-DCDE-F485-BA78F3CB07B8">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>59A0D2FD-8EDC-F73F-3B5D-651DF79E1B5E</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VLAK_vlak_id" id="755B8FF6-F7CA-46CC-56A7-B013DB6F16C9">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>4D452CBA-DB04-6DE4-C54D-0C70A54AD7B5</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2A905BC-A7BD-A72C-4FD1-DAFC4F791A10" referredColumn="AA45A5F8-58AE-F1C5-2807-F270C6BCEB9A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D581B55A-1C4E-B558-48CD-DA24FA261EE3" name="RELACIJA_PK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>5E5638CB-31D8-B1D0-0AB3-3A79322A33E9</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CFDEBA1-7DFF-CED1-3376-2E2F90141C61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90154527-2593-17C1-FAEF-70319D70CC30" name="RELACIJA_VLAK_FK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>AB29998F-9838-DF0A-67C0-0E88E2CB14A5</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="755B8FF6-F7CA-46CC-56A7-B013DB6F16C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

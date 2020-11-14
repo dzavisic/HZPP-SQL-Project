@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6FB10452-2A86-7A3F-AF39-F97AE4B934B2" name="KUPAC">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 19:30:53 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="kupac_id" id="CEDB629D-3117-3B31-D643-AABAE3FAA36C">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 19:31:05 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime" id="3E0E89B8-832B-003D-841F-467D9E6E945D">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 19:31:27 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prezime" id="5896FC95-BBBD-229D-A1DA-97C33E17FFC4">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 19:31:37 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresa" id="1BCD6B84-AD0A-6A43-B594-DF4442B469B6">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 19:31:43 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tel" id="86DE6C2E-3D4C-8D3C-9891-4EC08FB51487">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 19:31:51 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DOB" id="3D14D7DE-CA50-D4A6-34F0-40A2654A24C7">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 19:32:02 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="popust_id" id="E1EC9C96-F28D-2C0E-1F3E-C1E1B929DAC3">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 20:08:06 UTC</createdTime>
+<generatorID>6B8BAEAE-09A3-E4A1-245E-23C47D3C27F3</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<referedAttribute>BF00C441-ED94-6D97-F4EB-849FD57B0507</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1C066D43-2CC0-DEA6-3BE6-9803AD9157ED" name="KUPAC PK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 19:31:24 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CEDB629D-3117-3B31-D643-AABAE3FAA36C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

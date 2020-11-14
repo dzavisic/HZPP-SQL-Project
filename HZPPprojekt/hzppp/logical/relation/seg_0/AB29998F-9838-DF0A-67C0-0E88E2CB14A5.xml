@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RELACIJA_VLAK_FK" directorySegmentName="seg_0" id="AB29998F-9838-DF0A-67C0-0E88E2CB14A5">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 20:44:16 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<sourcePk>5E5638CB-31D8-B1D0-0AB3-3A79322A33E9</sourcePk>
+<targetPk>9AEBC568-329F-8FE0-75AB-1B580E76967B</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>74661068-7FBF-BAB3-F043-FEAA663A8664</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>27AB2441-2CBB-7EAE-2DF2-CB5093FFFAF3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

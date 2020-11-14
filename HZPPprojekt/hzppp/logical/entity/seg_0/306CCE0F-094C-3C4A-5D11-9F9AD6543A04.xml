@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="306CCE0F-094C-3C4A-5D11-9F9AD6543A04" name="KARTA">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 19:32:31 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="karta_id" id="27FC00FF-9948-1953-FDB3-E1F62D110308">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 19:32:42 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vrijeme_polaska" id="024F03E7-0577-4D41-B07C-0E3AEAA099C0">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 19:32:52 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_polaska" id="9A5B149E-FCA5-7719-6B85-69B9EDD867C6">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-08-23 16:44:40 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kupac_id" id="8375D4E7-23AC-FFCA-5ACC-75A3FF379933">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 20:27:19 UTC</createdTime>
+<generatorID>DDD8194B-F43A-7E0C-490C-B1D454AA40E2</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CEDB629D-3117-3B31-D643-AABAE3FAA36C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rel_id" id="62616D4D-1111-DF0C-314B-8FDE48499855">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 20:33:08 UTC</createdTime>
+<generatorID>6BC8C604-A6F0-2506-C9CB-C8A579B65DBF</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F561DFFB-874D-363A-BD02-2A507EC0C936</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vrijeme_kupnje" id="6C5FB978-3032-2777-00A2-9D105C3C629E">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-08-23 16:46:06 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rezervacija_sjedala" id="0270D446-6A0D-3205-14D3-8ED3393A47F8">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-08-23 16:38:49 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="redni_broj_ulaz" id="E544056D-4CC1-9EA1-E3F4-BC775ADBE4FC">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-01 16:58:14 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="redni_broj_izlaz" id="E8527AC6-C96C-8574-C827-100FC9EEA6EE">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-01 16:58:32 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cijena_kon" id="23E1BC3E-99D8-D7BF-CDF0-B2C88535019E">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:10:11 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0C935965-F499-30E0-E25C-8BC0E8ACAE01" name="KARTA PK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 19:32:50 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>27FC00FF-9948-1953-FDB3-E1F62D110308</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

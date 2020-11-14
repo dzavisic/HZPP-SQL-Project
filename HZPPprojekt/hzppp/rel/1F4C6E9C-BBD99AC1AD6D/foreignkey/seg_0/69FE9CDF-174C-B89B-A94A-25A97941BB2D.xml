@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="69FE9CDF-174C-B89B-A94A-25A97941BB2D" containerWithKeyObject="824DD579-A55F-E836-96E5-5D6AAA6DC0E4" localFKIndex="DFF18873-304B-3D93-CAB6-F250DF39F330" name="KARTA_RELACIJA_FK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>6BC8C604-A6F0-2506-C9CB-C8A579B65DBF</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<referredTableLongName>RELACIJA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F1B696A7-0AF3-379A-ABFC-94108D85D574</referredTableID>
+<keyObject>D581B55A-1C4E-B558-48CD-DA24FA261EE3</keyObject>
+<referredKeyID>D581B55A-1C4E-B558-48CD-DA24FA261EE3</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>rel_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

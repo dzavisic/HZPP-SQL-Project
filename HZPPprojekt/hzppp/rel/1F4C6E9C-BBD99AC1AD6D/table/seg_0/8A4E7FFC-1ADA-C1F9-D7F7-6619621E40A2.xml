@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A4E7FFC-1ADA-C1F9-D7F7-6619621E40A2" name="POSTAJA">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>E2DBFA20-C0A2-98F2-1872-01555621CA49</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="postaja_id" id="8F8A363F-1B81-EDED-AFE6-F9055281FAAA">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>32781BCA-8C51-849B-E5D0-66E7FB4F4FA0</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime_naselja" id="D9C40083-20C1-F55E-1ADA-47335A730D31">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>07A2EDCF-F512-9BAE-5A43-B7228E0CD092</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAPOSLENIK_zap_id" id="6043D0A1-51E0-2B4F-52BB-F34DD3085ECD">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>650BF080-8AF1-3174-6515-DEB81F451833</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC218CA6-9601-2C74-A93F-9BBB539AC814" referredColumn="4F208CBE-EB5A-55AC-D158-AE5163DCF566"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2401CCA-9908-44BA-4CA3-215A83365A49" name="POSTAJA_PK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>3BF7A059-3FB9-F1A2-077E-933D4B3CD589</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F8A363F-1B81-EDED-AFE6-F9055281FAAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8C831C0-EEC0-2656-EED3-724DB735257C" name="POSTAJA_ZAPOSLENIK_FK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>AC67AB7B-B067-C3BF-D723-59C9C8B2B127</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6043D0A1-51E0-2B4F-52BB-F34DD3085ECD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

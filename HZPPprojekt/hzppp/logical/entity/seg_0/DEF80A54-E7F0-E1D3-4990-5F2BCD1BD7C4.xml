@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DEF80A54-E7F0-E1D3-4990-5F2BCD1BD7C4" name="STAJALISTA">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 19:35:40 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="redni_broj" id="B6B06974-AF5F-E9E4-6B80-DB04E24DB03A">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 19:35:51 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rel_id" id="2A0FB0D4-973D-9E48-0A79-42DE70745477">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 21:07:11 UTC</createdTime>
+<generatorID>FCD6C760-B4D8-2431-80C9-9B6509B521FE</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<referedAttribute>F561DFFB-874D-363A-BD02-2A507EC0C936</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postaja_id" id="E96F1C97-EB4C-F409-3FE1-0553D6E01BF0">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 21:07:24 UTC</createdTime>
+<generatorID>B5ECE6B1-D734-7065-D9C3-C3F49F50E666</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<referedAttribute>32781BCA-8C51-849B-E5D0-66E7FB4F4FA0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

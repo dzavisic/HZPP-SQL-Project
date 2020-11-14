@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="74661068-7FBF-BAB3-F043-FEAA663A8664" name="RELACIJA">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 19:33:06 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rel_id" id="F561DFFB-874D-363A-BD02-2A507EC0C936">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 19:33:16 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cijena_relacije" id="A85CD668-4E02-DDA2-C987-B88E9CE3FF01">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 19:33:24 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vremensko_trajanje" id="59A0D2FD-8EDC-F73F-3B5D-651DF79E1B5E">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 19:33:32 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vlak_id" id="4D452CBA-DB04-6DE4-C54D-0C70A54AD7B5">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 20:44:50 UTC</createdTime>
+<generatorID>AB29998F-9838-DF0A-67C0-0E88E2CB14A5</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<referedAttribute>00DAE221-5941-3B35-729F-AE058C14F129</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5E5638CB-31D8-B1D0-0AB3-3A79322A33E9" name="RELACIJA PK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 19:33:23 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F561DFFB-874D-363A-BD02-2A507EC0C936</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

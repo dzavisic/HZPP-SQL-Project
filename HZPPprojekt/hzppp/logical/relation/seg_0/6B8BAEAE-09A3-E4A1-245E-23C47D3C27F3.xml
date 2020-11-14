@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POPUST_KUPAC_ID" directorySegmentName="seg_0" id="6B8BAEAE-09A3-E4A1-245E-23C47D3C27F3">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 20:07:34 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<sourcePk>1C066D43-2CC0-DEA6-3BE6-9803AD9157ED</sourcePk>
+<targetPk>F1E16A5C-497B-F5F1-5D54-8DF24C5D122F</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>6FB10452-2A86-7A3F-AF39-F97AE4B934B2</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>53841B85-9296-42F0-CEF5-B65C05248082</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

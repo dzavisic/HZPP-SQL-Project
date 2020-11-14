@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5952001-3CFD-B75F-8F76-F06F96A964D1" name="POPUST">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>53841B85-9296-42F0-CEF5-B65C05248082</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="popust_id" id="8327DC1D-5DCD-599D-212E-BB88418CAECD">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>BF00C441-ED94-6D97-F4EB-849FD57B0507</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vrijednost" id="FA13083C-9684-1C60-145F-988E5DAFBF9A">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>18D7D3AD-1018-D657-BD5D-7E16E6B75437</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03C25F68-DB68-CE9C-E0EB-16BF64AEE610" name="POPUST_PK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>F1E16A5C-497B-F5F1-5D54-8DF24C5D122F</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8327DC1D-5DCD-599D-212E-BB88418CAECD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

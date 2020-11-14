@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POSTAJA_STAJALISTE_FK" directorySegmentName="seg_0" id="B5ECE6B1-D734-7065-D9C3-C3F49F50E666">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 21:07:20 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<targetPk>3BF7A059-3FB9-F1A2-077E-933D4B3CD589</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>DEF80A54-E7F0-E1D3-4990-5F2BCD1BD7C4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>E2DBFA20-C0A2-98F2-1872-01555621CA49</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="27AB2441-2CBB-7EAE-2DF2-CB5093FFFAF3" name="VLAK ">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 19:38:32 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="vlak_id" id="00DAE221-5941-3B35-729F-AE058C14F129">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 19:56:47 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj_sjed" id="42C44467-A3C7-9DE8-35C4-27C58E697129">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 19:57:41 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vrsta_prijevoza" id="3460D56E-879B-962F-50FC-AB8C84F4AAB7">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-01 16:34:55 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zap_id" id="DDD664B8-B6A6-5D14-3378-984F696840DE">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-12 18:17:00 UTC</createdTime>
+<generatorID>02947D20-858C-68EB-3449-9E0E74CCE3D7</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<referedAttribute>677D9014-ABEA-2461-BDC3-0A14F8205E80</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zap_id1" id="FE6DD80D-21B9-03CD-65C0-1CF0FB254C6E">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-12 18:17:28 UTC</createdTime>
+<generatorID>AD7699B4-E793-F1ED-0555-CFB064F5D98C</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<referedAttribute>677D9014-ABEA-2461-BDC3-0A14F8205E80</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9AEBC568-329F-8FE0-75AB-1B580E76967B" name="VLAK PK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-07-17 19:57:17 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>00DAE221-5941-3B35-729F-AE058C14F129</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

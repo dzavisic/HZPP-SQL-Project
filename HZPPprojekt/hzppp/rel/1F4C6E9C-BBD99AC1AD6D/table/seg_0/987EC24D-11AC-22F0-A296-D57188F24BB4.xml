@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="987EC24D-11AC-22F0-A296-D57188F24BB4" name="VLAK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>27AB2441-2CBB-7EAE-2DF2-CB5093FFFAF3</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vlak_id" id="AA45A5F8-58AE-F1C5-2807-F270C6BCEB9A">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>00DAE221-5941-3B35-729F-AE058C14F129</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_sjed" id="3FE6E094-133F-8C0B-2763-D49ECD48F000">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>42C44467-A3C7-9DE8-35C4-27C58E697129</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vrsta_prijevoza" id="CC2E8AAC-912D-C1C2-8414-C2AF8B46BD8B">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>3460D56E-879B-962F-50FC-AB8C84F4AAB7</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAPOSLENIK_zap_id" id="0C0A6759-A3C9-CDB6-FFF6-FBBCFDD9327C">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>DDD664B8-B6A6-5D14-3378-984F696840DE</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58806CA7-FCF1-908C-963D-5FC0FC9179BC" referredColumn="4F208CBE-EB5A-55AC-D158-AE5163DCF566"/>
+</associations>
+</Column>
+<Column name="ZAPOSLENIK_zap_id1" id="9B5D965B-070A-B6CC-F35C-05794438C860">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>FE6DD80D-21B9-03CD-65C0-1CF0FB254C6E</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08E26F6B-6C92-4164-258F-4C48BBC042A6" referredColumn="4F208CBE-EB5A-55AC-D158-AE5163DCF566"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B75AB7B-4B72-0549-5A2F-63798E57EE08" name="VLAK_PK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>9AEBC568-329F-8FE0-75AB-1B580E76967B</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA45A5F8-58AE-F1C5-2807-F270C6BCEB9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8B83BDD-6F00-43A8-EF5B-BCE931511688" name="VLAK_ZAPOSLENIK_FK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>02947D20-858C-68EB-3449-9E0E74CCE3D7</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C0A6759-A3C9-CDB6-FFF6-FBBCFDD9327C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2B7F72A-090F-DA18-2CDC-AF7D9AB04210" name="VLAK_ZAPOSLENIK_FKv2">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>AD7699B4-E793-F1ED-0555-CFB064F5D98C</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B5D965B-070A-B6CC-F35C-05794438C860"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

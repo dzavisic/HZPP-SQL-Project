@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="824DD579-A55F-E836-96E5-5D6AAA6DC0E4" name="KARTA">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>306CCE0F-094C-3C4A-5D11-9F9AD6543A04</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="karta_id" id="CB122F79-6464-3C5C-FA0A-952153012004">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>27FC00FF-9948-1953-FDB3-E1F62D110308</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vrijeme_polaska" id="9E71262E-62B1-FDDA-8839-9BDFBB75F8FD">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>024F03E7-0577-4D41-B07C-0E3AEAA099C0</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_polaska" id="126DDD95-F2EE-8E77-EB08-49853867B833">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>9A5B149E-FCA5-7719-6B85-69B9EDD867C6</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KUPAC_kupac_id" id="D16350C1-1977-D5CB-51D5-B6F2411A40E1">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>8375D4E7-23AC-FFCA-5ACC-75A3FF379933</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B30CA7A5-BF15-25A9-46EF-1F5700764E5A" referredColumn="8117220A-5A57-653F-D679-7FDA5D981531"/>
+</associations>
+</Column>
+<Column name="RELACIJA_rel_id" id="DC93704C-7CA0-66B3-5BF5-2357FA8E39B0">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>62616D4D-1111-DF0C-314B-8FDE48499855</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69FE9CDF-174C-B89B-A94A-25A97941BB2D" referredColumn="8CFDEBA1-7DFF-CED1-3376-2E2F90141C61"/>
+</associations>
+</Column>
+<Column name="vrijeme_kupnje" id="7D7F22E8-6D31-7F30-96BB-6D7C5404710C">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>6C5FB978-3032-2777-00A2-9D105C3C629E</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rezervacija_sjedala" id="E62DE37F-6F7D-34FD-AEF0-840A09D3CDEA">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>0270D446-6A0D-3205-14D3-8ED3393A47F8</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="redni_broj_ulaz" id="F7ACF9F7-4F60-E339-0EDC-A90EEA81EEA2">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>E544056D-4CC1-9EA1-E3F4-BC775ADBE4FC</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="redni_broj_izlaz" id="EAF3F821-DC38-D70E-AC29-796D16BEC9C5">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>E8527AC6-C96C-8574-C827-100FC9EEA6EE</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cijena_kon" id="4968CA8F-2D5D-8D99-5AD1-2968258E684F">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>23E1BC3E-99D8-D7BF-CDF0-B2C88535019E</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8AD9E5DD-B9C3-11DC-F264-E79CED0E2D25" name="KARTA_PK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>0C935965-F499-30E0-E25C-8BC0E8ACAE01</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB122F79-6464-3C5C-FA0A-952153012004"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D30336AF-B76A-24FD-087C-9D1D022060AD" name="KARTA_KUPAC_FK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>DDD8194B-F43A-7E0C-490C-B1D454AA40E2</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D16350C1-1977-D5CB-51D5-B6F2411A40E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFF18873-304B-3D93-CAB6-F250DF39F330" name="KARTA_RELACIJA_FK">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-13 19:12:32 UTC</createdTime>
+<generatorID>6BC8C604-A6F0-2506-C9CB-C8A579B65DBF</generatorID>
+<ownerDesignName>hzppp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC93704C-7CA0-66B3-5BF5-2357FA8E39B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="zap_postaja" directorySegmentName="seg_0" id="AC67AB7B-B067-C3BF-D723-59C9C8B2B127">
+<createdBy>Sladjana</createdBy>
+<createdTime>2020-09-12 18:17:15 UTC</createdTime>
+<ownerDesignName>hzppp</ownerDesignName>
+<engineerTo>
+<item key="1F4C6E9C-BA02-C111-0CF7-BBD99AC1AD6D" value="true"/>
+</engineerTo>
+<sourcePk>38AF9050-938B-C356-D724-96FEFAD8A82F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9FBD2BD9-6D27-F798-B5C9-3FCA6ECDD645</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E2DBFA20-C0A2-98F2-1872-01555621CA49</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
